@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01 - RGB </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="value1">
+            <div id="sliders">
+                <div class="line1">
+                    (R) Vermelho:
+                    <input value="0" type="range" id="red" min="0" max="255"/>
+                    <div class="showNumber" id="show-Red"></div>
+                </div>
+                <div class="line2">
+                    (G) Verde:
+                    <input value="0" type="range" id="green" min="0" max="255"/>
+                    <div class="showNumber" id="showGreen"></div>
+                </div>
+                <div class="line3">
+                    (B) Azul:
+                    <input value="0" type="range" id="blue" min="0" max="255"/>
+                    <div class="showNumber" id="showBlue"></div>
+                </div>
+
+            </div>
+        </div>
+        <div id="shows"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

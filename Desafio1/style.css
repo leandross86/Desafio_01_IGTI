@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: whitesmoke;
+}
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#value1 {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    border: 1px solid black;
+    background: black;
+    flex-direction: row;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}
+#sliders {
+    display: flex;
+    flex-direction: column;
+}
+.line1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: darkred;
+}
+.line2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: darkgreen;
+}
+.line3 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+}
+#red {
+    margin: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    height: 15px;
+    appearance: none;
+    outline: none;
+    border-radius: 10px;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: 0.3s;
+    border: 3px solid red;
+}
+#green {
+    margin: 10px;
+    margin-left: 32.5px;
+    margin-top: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    height: 15px;
+    appearance: none;
+    outline: none;
+    border-radius: 10px;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: 0.3s;
+    border: 3px solid green;
+}
+#blue {
+  margin: 10px;
+  margin-left: 44.5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  height: 15px;
+  outline: none;
+  border-radius: 10px;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: 0.3s;
+  border: 2px solid blue;
+}
+#shows {
+    margin-left: 100px;
+    width: 253px;
+    height: 216px;
+    border: 0px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 10px;
+}
+.showNumber{
+    width: 50px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 2px 1px 2px 2px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 575.98px) {
+    #container {
+      display: flex;
+      flex-direction: column;
+    }
+    #color-show {
+      margin: 20px 0px;
+    }
+  }
+
