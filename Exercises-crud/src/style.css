@@ -13,3 +13,9 @@ ul, li {
     margin-right: 10px;
     border-radius: 50%;
 }
+
+.formcrud {
+    margin-left: 20px;
+    display: flow-root;
+    font-family: cursive;
+}

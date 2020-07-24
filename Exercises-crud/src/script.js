@@ -63,7 +63,7 @@ function render() {
             //     return true;
             //     return i !== index;
             // });
-            globalNames = globalNames.filter((_, i ) => i !== index)
+            globalNames = globalNames.filter((_, i) => i !== index);
             render();
         }
         var button = document.createElement('button');
@@ -114,7 +114,11 @@ function render() {
     divNames.appendChild(ul);
     clearInput();
 };
-function clearInput(){
-    inputName.value = '';
+// function clearInput(){
+//     inputName.value = '';
+//     inputName.focus();
+// }
+const clearInput = () => {
+    inputName.value = ''
     inputName.focus();
 }
