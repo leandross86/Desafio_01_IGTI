@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>User Search</title>
+</head>
+<body>
+    <h1>User Search</h1>
+    <div class="container-header">
+        <input type="text" placeholder="Buscar" id="inputSearch">
+        <button id="submitButton"> <img class="icon-buscar" src="./assets/lupa.svg" alt="Buscar"></button>
+    </div>
+    <div class="result">
+        <div class="card-result" id="findUsers">
+            <h2><span id="count">0</span> usuário(s) encontrados(s)</h2>
+            <div id="userList"></div>
+        </div>
+        <div class="card-result" id="statistics">
+            <h2>Estatísticas</h2>
+            <div class="flex-row">
+                <div class="card-stat">
+                    <img class="img-stat" src="./assets/male1.svg" alt="masculino">
+                    <h6>Sexo Masculino</h6>
+                    <span id="countMale">0</span>
+                </div>
+                <div class="card-stat">
+                    <img class="img-stat" src="./assets/women.svg" alt="feminino">
+                    <h6>Sexo Feminino</h6>
+                    <span id="countFemale">0</span>
+                </div>
+                <div class="card-stat">
+                    <img class="img-stat" src="./assets/plus1.svg" alt="soma">
+                    <h6>Soma das idades</h6>
+                    <span id="sum">0</span>
+                </div>
+                <div class="card-stat">
+                    <img class="img-stat" src="./assets/calculadora.svg" alt="calculadora">
+                    <h6>Média das idades</h6>
+                    <span id="average">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/server.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
