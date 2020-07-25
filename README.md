@@ -41,9 +41,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ---
 ## 🤝Créditos
 
-[IGTI](https://www.igti.com.br/)
-
-<img src=./Assets/logo2.png>
+[<img src=./Assets/logo2.png>](https://www.igti.com.br/)
 
 ## 🧱Status: Em desenvolvimento
 
