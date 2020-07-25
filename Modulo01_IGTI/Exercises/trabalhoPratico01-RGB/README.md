@@ -1,5 +1,5 @@
 
-## Challenge 01
+## Trabalho Prático 01 - RGB
 <h1 align = "center">
 <img src="../assets/RGB.gif">
 
