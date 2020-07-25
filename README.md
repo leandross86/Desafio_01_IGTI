@@ -1,5 +1,10 @@
-# 📚Bootcamp Fullstack IGTI
+<h1 align="center">
+<img src="./Assets/logo1.png" align=center>
+</h1>
 
+<h1 align="center">
+📚Bootcamp Fullstack IGTI 
+</h1>
 
 ## 📁Indice
 - [Objetivo](#objetivo)
@@ -37,6 +42,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 🤝Créditos
 
 [IGTI](https://www.igti.com.br/)
+
+<img src=./Assets/logo2.png>
 
 ## 🧱Status: Em desenvolvimento
 
