@@ -40,8 +40,8 @@ async function fetchCountries() {
       population,
       formattedPopulation: formatNumber(population),
       flag
-    };
-  });
+    }; 
+  });console.log(json)
 
   render();
 }
